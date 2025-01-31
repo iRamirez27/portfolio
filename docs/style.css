@@ -14,8 +14,6 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: transparent !important;
-    background-color: initial;
 }
 
 .projects, .anim_final {
