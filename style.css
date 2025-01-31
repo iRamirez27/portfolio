@@ -1,0 +1,45 @@
+* {
+    font-weight: 600;
+    margin: 0;
+}
+
+.header {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    padding: 80px 20px;
+
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/visual/landscape_background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent !important;
+    background-color: initial;
+}
+
+.projects, .anim_final {
+    /*width: 25%;*/
+    padding: 50px 69.25px;
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+}
+
+.projects {
+    float: left;
+}
+
+.anim_final {
+    float: right;
+}
+
+.game_final {
+    align-content: center;
+    float: none;
+    padding: 30px 375px;
+}
+
+.projects, .anim_final, .game_final {
+    background-color: #e4dbc4;
+}
